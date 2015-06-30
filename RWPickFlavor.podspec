@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
     s.summary = "RWPickFlavor lets a user select an ice cream flavor."
     s.requires_arc = true
 
-    s.version = "0.1.0"
-    s.license = { :type = "MIT", :file => "LICENSE" }
+    s.version = "0.1.1"
+    s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "[Trent Poche]" => "[tjpoche@gmail.com]" }
     s.homepage = "[http://blackhawkdc.com]"
     s.source = { :git => "[https://github.com/tpoche/RWPickFlavor]", :tag => "#{s.version}" }
