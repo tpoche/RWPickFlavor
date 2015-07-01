@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "[Trent Poche]" => "[tjpoche@gmail.com]" }
     s.homepage = "[http://blackhawkdc.com]"
-    s.source = { :git => "[https://github.com/tpoche/RWPickFlavor]", :tag => "#{s.version}" }
+    s.source = { :git => "[git://github.com/tpoche/RWPickFlavor]", :tag => "#{s.version}" }
 
     s.framework = "UIKit"
     s.dependency 'Alamofire', '~> 1.2'
