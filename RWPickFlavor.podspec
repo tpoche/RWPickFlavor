@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
     s.summary = "RWPickFlavor lets a user select an ice cream flavor."
     s.requires_arc = true
 
-    s.version = "0.1.3"
+    s.version = "0.1.4"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "[Trent Poche]" => "[tjpoche@gmail.com]" }
     s.homepage = "[http://blackhawkdc.com]"
-    s.source = { :git => "[git://github.com/tpoche/RWPickFlavor]", :tag => "#{s.version}" }
+    s.source = { :git => "[https://github.com/tpoche/RWPickFlavor.git]", :tag => "#{s.version}" }
 
     s.framework = "UIKit"
     s.dependency 'Alamofire', '~> 1.2'
